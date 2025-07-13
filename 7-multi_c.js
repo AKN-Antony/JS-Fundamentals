@@ -1,11 +1,9 @@
-// 7-multi_c.js
-const count = parseInt(process.argv[2]);
-
-if (isNaN(count)) {
+const x = parseInt(process.argv[2]);
+if (isNaN(x)) {
   console.log('Missing number of occurrences');
 } else {
-  console.log(`Correct output - ${count} times`);
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < x; i++) {
     console.log('C is fun');
   }
 }
+
